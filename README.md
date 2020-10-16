@@ -15,7 +15,8 @@ Saved events will persist when refreshing or closing the browser.
 
 ## Description and Method
 
-This application is to be used as a work-day scheduler. This application contains the links to, and employs the use of jquery. momentj.s, and bootstrap. I started out by hardcoding the time blocks into the html div with class "container". From there I added a little bit of style, but also reference the style in the css file. Added a sticky footer. In my javascript I wrapped the entire script into a .ready funciton. I used moment.js to update the time clock in the header with the current day and time. Events are saved in the textarea time blocks using an on click function which sets the items in local storage. The value of the input is saved onto the page after reload using localStorage.getItem. The time blocks are color-coded using a .each function which employs the use of if and else if statements to determine if the conditions for the classes are met, and to add and remove classes accordingly.
+This application is to be used as a work-day scheduler. This application contains the links to, and employs the use of jquery. moment.js, and bootstrap. I started out by hardcoding the time blocks into the html div with class "container". From there I added a little bit of style, but also referenced the style in the css file. Added a sticky footer to the HTML. 
+In my javascript I wrapped the entire script into a .ready funciton. I used moment.js to update the time clock in the header with the current day and time. Events are saved in the textarea time blocks using an on click function which sets the items in local storage. The value of the input is saved onto the page after reload using localStorage.getItem. The time blocks are color-coded using a .each function which employs the use of if and else if statements to determine if the conditions for the classes are met, and to add and remove classes accordingly.
 
 # Link to Deployed Application:
 
