@@ -1,10 +1,6 @@
 $(document).ready(function () {
 
     var mmnt = moment();
-    console.log(mmnt);
-    console.log(mmnt.toString());
-    console.log(mmnt.format('dddd DD MMMM YYYY h:mm:ss a'))
-    console.log(mmnt.hour());
 
     function updateTime() {
         var mmnt = moment().format('dddd DD MMMM YYYY h:mm:ss a');
