@@ -1,0 +1,16 @@
+header {
+    background: rgb(230, 230, 230);
+    text-align: center;
+    padding-top: 25px;
+    padding-left: 50px;
+    padding-bottom: 25px;
+    padding-right: 50px;
+}
+
+body {
+    background: rgb(230, 230, 230);
+    padding-top: 25px;
+    padding-left: 50px;
+    padding-bottom: 25px;
+    padding-right: 50px;
+}
